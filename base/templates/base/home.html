@@ -1,0 +1,106 @@
+{% load static %}
+<!--
+<h3>Hello World</h3>
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rakesh Ramesh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static '/images/profilepic.jpg' %}" height="200px" width="200px">
+                    <hr>
+                    <h4>Hi I'm Rakesh!</h4>
+                    <p>I love coding, doing research and collaborating</p>
+                    <ul class="contact">
+                        <li><b>Phone :</b> 9944207460</li>
+                        <li><b>Email :</b> rakeshrkz15798@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                <h4>My First Job as a Developer</h4>
+                <hr>
+                <p>After getting placed in a reputed Software company on my final year of B.Tech, I was called to do a
+                    Internship in the company. I worked for an enterprise customer project as a <strong>Full Stack Developer</strong>.
+                    Then created my own projects to enhance my skills in Python. Meanwhile I was contributing to other
+                    projects as a <strong>Python Developer</strong></p>.
+                <p>I have supported in taking decisions in many complex problems that the team faced logically. I'm a open-minded
+                    and innovative. Has the abilitity to strive hard and find a solution for the problem.</p>
+                <p>I like the joy of developing my thoughts and protocol into a working model from which I will be able
+                    to see my ownskills and worth.From this you'll see that I'm someone who is passionate to work in the corporate field.</p>
+
+                <ul class="social-links">
+                    <li><a href= "https://m.facebook.com/rakeshrkz147?ref=bookmarks"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+                    <li><a href= "https://www.linkedin.com/in/rakesh-rkz-b08a50145/"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+                    <li><a href= "https://www.instagram.com/rakesh__rkz/"><img class="social" src="{% static 'images/instagram.jpg' %}"></a></li>
+                    <li><a href= "https://github.com/rakeshrkz7"><img class="social" src="{% static 'images/github.png' %}"></a></li>
+                    <li><a href= "https://twitter.com/RakeshR31153361"><img class="social" src="{% static 'images/twitter.png' %}"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>My Experience as a developer</h5>
+                <hr>
+                <p>Full stack developer at Payoda Technologies,Coimbatore.</p>
+                <p>Designed, built and managed the browser security certificate providing system as a sole developer. System supports
+                    certificate authentication for customer login.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>Skills</h5>
+                <hr>
+                <p>Python, Django, HTML/CSS, JavaScript, Postgres, AWS and APIs such as google maps, REST and a whole bunch more I 
+                    can't possibly mention in one sentence ;).</p>
+                
+                <p>PS: Working on Node JS, Mongo DB and Machine Learning.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>How I Learn</h5>
+                <hr>
+                <p>Reverse Engineer & Build Own Prototypes First.</p>
+
+                <p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I
+                    need to figure it out why things work the way they do. Documentation usage is only for reference.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>My Short Term Goals</h5>
+                <hr>
+                <p>I would love to develop small products on my own ideation with latest technology. Also passionate about creating
+                    my own games and web sites.</p>
+                <p>Aside from building small projects, I would love to enter a position where I can be part of a bigger team & 
+                    learn from others with more experience than myself.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    </div>
+</body>
+
+</html>
